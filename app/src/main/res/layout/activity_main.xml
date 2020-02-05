@@ -10,8 +10,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button Demo"
-        android:textSize="40dp"
+        android:text="@string/button_demo"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -20,14 +20,16 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="77dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="44dp"
-        android:text="Click Me!"
-        android:textSize="8sp"
+        android:layout_width="104dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="40dp"
+        android:onClick="clickFunction"
+        android:text="@string/click_me"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
